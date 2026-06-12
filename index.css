@@ -1,0 +1,1961 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box1{
+    background-color: aqua;
+    height: 100vh;
+   
+  
+   
+}
+.kar1{
+    color: transparent;
+    position: absolute;
+    top:50px;
+}
+/* .a{
+    position: fixed !important;
+    z-index: 1;
+} */
+.kar2{
+    color: transparent;
+}
+.container-fluid{
+width: 100%;
+    padding-right: var(--bs-gutter-x, .0rem ) !important;
+    padding-left: var(--bs-gutter-x, .0rem ) !important;
+    margin-right: auto;
+    margin-left: auto;
+    }
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.box2{
+    /* background-color: black; */
+    min-height: 600px;
+    padding: 20px;
+    padding-top: 90px;
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: wrap;
+     background-image:url("./gold59bac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    contain: paint;
+    
+}
+
+.box3{
+    /* background-color: aqua; */
+    min-height: 400px;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+    top: -25px;
+    
+   
+    
+}
+.a1{
+    font-size: 45px;
+}
+.box4{
+    /* background-color: rgb(255, 60, 0); */
+    height: 150px;
+    width: 50%;
+    margin-top: 180px;
+    animation-name: a4;
+     animation-duration:2s;                                        
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: rgb(253, 253, 248) 0px 0px 30px;
+
+}
+ 
+@keyframes a4{
+              From {
+Transform: translatex(900px)
+} 
+To{
+Transform: translatex(0px)
+}
+   
+}
+
+.i1{
+    background-color: brown;
+    height: 250px;
+    width: 46%;
+     border-radius: 20px;
+      animation-name: a1;
+    animation-duration:2s;                                        
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: rgb(236, 221, 4) 0px 0px 30px;
+
+}
+ 
+@keyframes a1{
+              From {
+Transform: translatex(-900px)
+} 
+To{
+Transform: translatex(0px)
+}
+}
+.ima1{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.i2{
+    background-color: rgb(42, 165, 48);
+    height: 250px;
+    width: 46%;
+    border-radius: 20px;
+    animation-name: a2;
+    animation-duration:1.10s;                                        
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: rgb(236, 221, 4) 0px 0px 30px;
+
+}
+ 
+@keyframes a2{
+              From {
+Transform: translatex(-900px)
+} 
+To{
+Transform: translatex(0px)
+}
+}
+
+.ima2{
+    height: 250px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.i3{
+    background-color: brown;
+    height: 220px;
+    width: 80%;
+   margin-left: 60px;
+    border-radius: 20px;
+     animation-name: a3;
+     animation-duration:2s;                                        
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: rgb(236, 221, 4) 0px 0px 30px;
+
+}
+ 
+@keyframes a3{
+              From {
+Transform: translatex(-900px)
+} 
+To{
+Transform: translatex(0px)
+}
+}
+    
+
+.ima3{
+    height: 220px;
+    width: 100%;
+     border-radius: 20px;
+
+}
+
+/* .............................................. 2box................................... */
+
+.box33{
+    background-color: rgba(31, 241, 206, 0.849);
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    justify-content:end;
+    gap: 40px;
+    flex-wrap: wrap;
+     background-image:url("Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    contain: paint;
+    
+}
+.wit{
+    background-color: white;
+    height: 500px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+     display: flex;
+      animation-name: a4;
+    animation-timeline:view();
+    animation-range: entry 0% cover 50%;
+    animation-fill-mode: forwards;
+     border-radius: 20px;
+
+
+}
+@keyframes a4{
+              From {
+Transform: translatex(900px)
+} 
+To{
+Transform: translatex(0px)
+}
+   
+   
+}
+.wit1{
+    /* background-color: rgb(243, 10, 10); */
+    min-height: 150px;
+    width: 100%;
+    padding:20px 20px 10px;
+   
+}
+
+.wit2{
+    /* background-color: rgb(76, 243, 10); */
+    height: 330px;
+    width: 25%;
+    margin-right:10px;
+    display: flex;
+    flex-wrap: wrap;
+     
+
+}
+
+.wit3{
+    /* background-color: rgb(10, 243, 231); */
+    height: 330px;
+    width:70%;
+    margin-left: 10px;
+   
+}
+
+.rin{
+    height:330px;
+    width: 100%;
+}
+.rin1{
+    height:100px;
+    width: 100%;
+}
+.ri1{
+    background-color: blue;
+    height: 90px;
+    width: 100%;
+    margin: 10px;
+}
+.ri2{
+    background-color: rgb(255, 0, 234);
+    height:90px;
+    width: 100%;
+     margin: 10px;
+}
+.ri3{
+    background-color: rgb(255, 0, 55);
+    height: 90px;
+    width: 100%;
+     margin: 10px;
+    
+    
+}
+
+/* ...................................................box3............................................... */
+
+
+.box3333{
+    /* background-color: rgba(31, 241, 206, 0.849); */
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    justify-content:start;
+    gap: 40px;
+    flex-wrap: wrap;
+     background-image:url("./Rectangle\ 15.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    contain: paint;
+    
+    
+}
+.witt {
+    background-color: white;
+    height: 500px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 2px;
+     animation-name: a4;
+    animation-timeline:view();
+    animation-range: entry 0% cover 50%;
+    animation-fill-mode: forwards;
+     border-radius: 20px;
+
+
+}
+@keyframes a4{
+              From {
+Transform: translatex(900px)
+} 
+To{
+Transform: translatex(0px)
+}
+}
+.wit1{
+    /* background-color: rgb(243, 10, 10); */
+    min-height: 150px;
+    width: 100%;
+    padding:20px 20px 10px;
+   
+}
+
+.wit2{
+    /* background-color: rgb(76, 243, 10); */
+    height: 330px;
+    width: 25%;
+    margin-right:10px;
+    display: flex;
+    flex-wrap: wrap;
+     
+
+}
+
+.wit3{
+    /* background-color: rgb(10, 243, 231); */
+    height: 330px;
+    width:70%;
+    margin-left: 10px;
+   
+}
+
+.rin{
+    height:330px;
+    width: 100%;
+}
+.rin1{
+    height:100px;
+    width: 100%;
+}
+.ri1{
+    background-color: blue;
+    height: 90px;
+    width: 100%;
+    margin: 10px;
+}
+.ri2{
+    background-color: rgb(255, 0, 234);
+    height:90px;
+    width: 100%;
+     margin: 10px;
+}
+.ri3{
+    background-color: rgb(255, 0, 55);
+    height: 90px;
+    width: 100%;
+     margin: 10px;
+    
+    
+}
+.kar2{
+    color: transparent;
+    position: absolute;
+    top:50px;
+}
+/* <!-- ......................................
+
+.............................................................. */
+
+.box44{
+   background-color: rgba(31, 241, 206, 0.849);
+    height: 550px;
+    padding: 20px;
+    display: flex;
+    justify-content:end;
+    gap: 40px;
+    flex-wrap: wrap;
+     background-image:url("./Property\ 1\ 7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    contain: paint;
+   
+    
+}
+
+.wittt{
+    background-color: white;
+    height: 500px;
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+     display: flex;
+      animation-name: a4;
+    animation-timeline:view();
+    animation-range: entry 0% cover 50%;
+    animation-fill-mode: forwards;
+     border-radius: 20px;
+
+
+}
+@keyframes a4{
+              From {
+Transform: translatex(900px)
+} 
+To{
+Transform: translatex(0px)
+}
+}
+
+/* <!-- ......................................box5.............................................................. */
+
+.box55{
+       background-color: rgb(61, 60, 58);
+       height: 390px;
+       width: 100%;
+        padding: 10px;
+        display: flex;
+        gap: 10px;
+        flex-direction:row;
+        flex-wrap: wrap;
+        
+       
+}
+
+
+.tbox1{
+    /* background-color: blueviolet; */
+    height: 265px;
+    width: 35%;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    
+   
+}
+.bus1
+{
+    height: 40px;
+    width: 30%;
+    border-radius: 23px;
+    border: none;
+    background-color:  rgb(78, 77, 75) ;
+    border: 2px solid white ;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px 5px 5px 30px;
+   
+}
+.tbox2{
+    /* background-color: rgb(226, 208, 43); */
+    height: 265px;
+    width: 30%;
+    margin-top: 50px;
+    padding: 20px;
+   
+   
+}
+.pi1{
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+     margin-left:0px;
+     border-radius: 40px;
+      position: relative;
+    right: 10px;
+    
+}
+.pi2{
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+     margin-left:0px;
+     border-radius: 40px;
+      position: relative;
+    right: 10px;
+    
+}
+.pi3{
+    background-color: aqua;
+    height: 150px;
+    width: 110%;
+     margin-left:0px;
+     border-radius: 40px;
+      position: relative;
+    right: 10px;
+    
+}
+.tbox3{
+    /* background-color: rgb(110, 226, 43); */
+    height: 265px;
+    width: 30%;
+    margin-top: 50px;
+    padding: 20px;
+   
+}
+.tbox4{
+    /* background-color: rgb(226, 43, 186); */
+    height: 265px;
+    width: 30%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.c{
+    /* background-color: blueviolet; */
+    height: 60px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 27px;
+    color: white;
+}
+.imm1{
+    height: 150px;
+    width: 110%;
+    margin-right: 10px;
+   
+}
+.imm2{
+    height: 150px;
+    width: 100%;
+    border-radius: 38px;
+}
+
+.box-price{
+              height: 300px;
+              width: 60%;
+              /* background-color: aqua; */
+              display: flex;
+              justify-content: space-between;
+}
+/* <!-- ......................................box6.............................................................. */
+
+.box66{
+    background-color:white;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+   
+}
+
+.v11{
+     background-color: brown;
+     height: 470px;
+     width: 50%;
+      margin-left: 10px;
+}
+
+.v22 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.eg3{
+     /* background-color: rgb(147, 165, 42); */
+     height: 470px;
+     width: 48%;
+     
+}
+
+.tt11{
+    /* background-color: rgb(255, 81, 0); */
+    height: 130px;
+    width: 100%;
+    padding: 10px;
+}
+.eeggg{
+    /* background-color: blue; */
+    height: 340px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}
+
+.eeg11{
+    background-color: rgb(86, 88, 86);
+    height: 320px;
+    width: 30%;
+    border-radius: 100px;
+     padding: 10px;
+     
+}
+.egr1{
+    /* background-color: blueviolet; */
+    height: 160px;
+    width:100%;
+    border-radius: 100px;
+}
+
+.round1{
+    height: 164px;
+    width: 100%;
+}
+.rin13{
+    /* background-color: rgb(255, 208, 0); */
+    height: 90px;
+    width: 60%;
+    margin-left: 34px;
+    margin-top: 30px;
+    color: white;
+
+
+}
+.fan{
+    font-size: 20px;
+    text-align: center;
+}
+.bu12 {
+    height: 45px;
+    width: 17%;
+    background-color: white;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 16px 37px 44px 20px;
+    border-radius: 73%;
+    border: none;
+}
+.eeg2{
+   background-color: rgb(86, 88, 86);
+    height: 320px;
+    width: 30%;
+    border-radius: 100px;
+     padding: 10px;
+     
+}
+.egrr2{
+    /* background-color: blueviolet; */
+    height: 160px;
+    width:100%;
+    border-radius: 100px;
+    
+   
+}
+.eeg3{
+    background-color: rgb(86, 88, 86);
+     height: 320px;
+    width: 30%;
+    border-radius: 100px;
+     padding: 10px;
+}
+.egr3{
+    /* background-color: blueviolet; */
+    height: 160px;
+    width:100%;
+    border-radius:80px;
+    
+   
+}
+
+/* <!-- .............................................box7.................................................. --> */
+
+.karthik{
+    background-color: rgb(241, 173, 69);
+    min-height: 650px;
+    width: 100%;
+    overflow: hidden;
+     background-image:url("./goldb22.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    contain: paint;
+    
+}
+.boox1{
+    /* background-color: blue; */
+    height: 270px;
+    width: 225%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10px;
+    animation: scroole 15s linear infinite ; 
+    
+}
+@keyframes scroole {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+
+
+.chei1{
+    background-color: blueviolet;
+    height: 250px;
+    width: 25%;
+}
+.chei2{
+    background-color: rgb(103, 126, 84);
+    height: 250px;
+    width: 40%;
+}
+.chei3{
+    background-color: rgb(43, 220, 226);
+    height: 250px;
+    width: 25%;
+}
+
+
+.cheia1{
+
+    background-color: rgb(103, 126, 84);
+    height: 250px;
+    width: 54%;
+}
+
+.cheia2{
+
+    background-color: rgb(233, 14, 10);
+    height: 250px;
+    width: 35%;
+}
+
+
+
+
+
+.boox2{
+    /* background-color: rgb(229, 255, 0); */
+    height: 270px;
+    min-width: 200%;
+     display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+     align-items: center;
+    justify-content:center;
+    gap: 10px;
+     animation: scroolll 15s linear infinite ;
+    
+    
+}
+@keyframes scroolll {
+    0% {
+        transform: translatey(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
+   
+
+
+.boox3{
+    /* background-color: rgb(255, 0, 221); */
+    height: 270px;
+    width: 225%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10px;
+    animation: scrool 20s linear infinite ;
+    
+}
+@keyframes scrool {
+    0% {
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+.cheiab1{
+    background-color: rgb(228, 13, 13);
+    height: 250px;
+    width:300px;
+
+}
+.cheiab2{
+    background-color: rgb(13, 228, 13);
+    height: 250px;
+    width: 300px;
+
+}
+.cheiab3{
+    background-color: rgb(228, 178, 13);
+    height: 250px;
+    width:300px;
+
+}
+.cheiab4{
+    background-color: rgb(13, 228, 199);
+    height: 250px;
+    width:300px;
+
+}
+.cheiab5{
+    background-color: rgb(178, 13, 228);
+    height: 250px;
+    width: 300px;
+
+}
+
+.imgg1{
+    height: 250px;
+    width: 100%;
+}
+
+.imgg2{
+    height: 250px;
+    width: 100%;
+}
+.imgg3{
+    height: 250px;
+    width: 100%;
+    /* border-radius: 40px; */
+}
+
+
+/* <!-- .............................................box8.................................................. --> */
+
+.karthik1{
+    background-color: rgb(0, 38, 255);
+    height: 500px;
+    width: 100%;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-image: url("./pexels-n-voitkevich-4943485.jpg");
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    contain: paint;
+    
+}
+.slide{
+    /* background-color: blueviolet; */
+    height: 450px;
+    width:85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fs1{
+    height:400px !important;
+    width: 100% !important;
+    border-radius: 40px;
+}
+
+
+.carousel-control-next {
+    right: -94px !important;
+}
+
+.carousel-control-prev {
+    left: -94px !important;
+}
+
+/* <!-- .............................................box9.................................................. --> */
+
+.overdiv{
+     /* background-color: rgb(161, 161, 204); */
+     min-height: 535px;
+     width: 100%;
+     margin-top: 0px;
+      flex-wrap: wrap;
+      background-image: url("./pexels-n-voitkevich-4943485.jpg");
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    contain: paint;
+     
+    
+     
+}
+
+.ovebox1{
+    /* background-color: aqua; */
+    min-height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+    
+}
+.textc1{
+    /* background-color: red;  */
+    min-height: 200px;
+    width: 550px;
+    padding: 20px;
+    color: white;
+}
+.textc2{
+    /* background-color: rgb(229, 255, 0); */
+    min-height: 200px;
+    width: 550px;
+    padding: 20px;
+    color: white;
+}
+.ovebox2{
+    /* background-color: rgb(44, 46, 46); */
+    min-height: 285px;
+    width: 100%;
+    
+    
+}
+
+.textc3{
+    /* background-color: rgb(229, 255, 0); */
+    min-height: 240px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 76px;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.textc33{
+    /* background-color: rgb(184, 187, 170); */
+    height: 200px;
+    width: 150px;
+   
+}
+.textc4{
+    /* background-color: rgb(30, 255, 0); */
+    height: 200px;
+    width: 150px;
+}
+.textc5{
+    /* background-color: rgb(255, 17, 0); */
+    height: 200px;
+    width: 150px;
+}
+.textc6{
+    /* background-color: rgb(63, 66, 30); */
+    height: 200px;
+     width: 150px;
+}
+.textc7{
+    /* background-color: rgb(55, 0, 255); */
+    height: 200px;
+    width: 150px;
+}
+.textc8{
+    /* background-color: rgb(255, 0, 221); */
+    height: 200px;
+    width: 15%;
+}
+.textd1{
+    /* background-color: blue; */
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+.recimg{
+    height: 150px;
+    width: 150px;
+}
+
+.tx1{
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:300px) and (max-width:600px){
+
+
+    
+
+
+    .i1{
+    background-color: brown;
+    height: 250px;
+    width: 100%;
+    padding: 0px;
+    }
+    .i2{
+        width: 100%;
+    }
+    .i3 {
+    
+    height: 220px;
+    width: 100%;
+    margin-left: 0px
+    }
+    .box2 {
+        flex-direction: column-reverse;
+        padding-top: 27px;
+      
+    }
+    .box3{
+        width:100%;
+    }
+    .box4{
+        width:100%;
+        padding:20px 10px ;
+        /* height: 10%; */
+        
+    }
+    .a1{
+    font-size:large;
+    font-size: 18px;
+    
+}
+
+.box4 {
+   
+    margin-top: 0px;
+}
+.box4 {
+    /* background-color: rgb(255, 60, 0); */
+    height: 88px;
+}
+
+.wit {
+    background-color: white;
+    height: 319px;
+    width: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    position:relative;
+    top:18px;
+    text-align: center;
+   
+}
+.witt {
+    background-color: white;
+    height: 319px;
+    width: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+    top:18px;
+    text-align: center;
+   
+}
+.wit2{
+    /* background-color: rgb(76, 243, 10); */
+    height:98px;
+    width: 101%;
+    margin-right:10px;
+    display: flex;
+    flex-wrap: wrap;
+   
+     
+
+}
+
+.ri1 {
+    background-color: blue;
+    height: 72px;
+    width: 25%;
+    margin: 10px;
+}
+.ri2{
+    background-color: rgb(255, 0, 234);
+   height: 72px;
+    width: 25%;
+     margin: 10px;
+}
+.ri3{
+    background-color: rgb(255, 0, 55);
+    height: 72px;
+    width: 25%;
+     margin: 10px;
+}
+
+.rin1 {
+    height: 72px;
+    width: 100%;
+}
+.box33{
+    
+    background-color: rgba(31, 241, 206, 0.849);
+    min-height:629px;
+    padding: 20px;
+    display: flex;
+   
+}
+.wit3 {
+    background-color: rgb(10, 243, 231);
+    height:237px;
+    width:101%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.rin {
+    height: 237px;
+    width: 100%;
+}
+
+.box33{
+    
+    background-color: rgba(31, 241, 206, 0.849);
+    min-height:629px;
+    padding: 20px;
+    display: flex;
+   
+}
+.wit3 {
+    background-color: rgb(10, 243, 231);
+    height:237px;
+    width:101%;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.rin {
+    height: 237px;
+    width: 100%;
+}
+
+.box3333 {
+    background-color: rgba(31, 241, 206, 0.849);
+    height: 641px;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+    flex-wrap: wrap;
+   
+}
+
+
+.wittt {
+        background-color: white;
+        height:320px;
+        width: 104%;
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .box44 {
+    background-color: rgba(31, 241, 206, 0.849);
+    height: 650px;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    flex-wrap: wrap;
+    
+}
+
+.tbox1 {
+    background-color: rgb(15, 15, 15);
+    height: 315px;
+    width: 104%;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+   .bus1 {
+        height: 40px;
+        width: 52%;
+        border-radius: 23px;
+        border: none;
+        background-color: rgb(219, 152, 19);
+        border: 2px solid white;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 5px 5px 5px 30px;
+        margin-left: 60px;
+        margin-top: 45px;
+    }
+
+    .box-price {
+    height: 957px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.tbox2 {
+    /* background-color: rgb(226, 208, 43); */
+    height: 272px;
+    width: 99%;
+    margin-top: 50px;
+    padding: 20px;
+}
+.c {
+    /* background-color: blueviolet; */
+    height: 60px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 92px;
+    color: white;
+}
+
+.tbox3 {
+    /* background-color: rgb(110, 226, 43); */
+    height: 275px;
+    width: 99%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.tbox4 {
+    /* background-color: rgb(226, 43, 186); */
+    height: 275px;
+    width: 99%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.box55 {
+    background-color: rgb(61, 60, 58);
+    height: 1363px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.v11 {
+    background-color: brown;
+    height: 220px;
+    width: 99%;
+    margin-left: 2px;
+}
+
+.box66 {
+    /* background-color: #d5bfb */
+    min-height:809px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+    .v11 {
+        background-color: brown;
+        height: 220px;
+        width: 99%;
+        margin-left: 2px;
+        margin-top: 20px;
+    }
+
+    .tt11 {
+    /* background-color: rgb(255, 81, 0); */
+    height: 130px;
+    min-width:207%;
+    padding: 10px;
+    text-align: center;
+}
+
+.eeggg {
+        /* background-color: blue; */
+        height: 1059px;
+        width: 207%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 3px;
+        flex-direction: column;
+    }
+
+    .eeg11 {
+    background-color: rgb(86, 88, 86);
+    height: 320px;
+    width: 63%;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.eeg2 {
+    background-color: rgb(86, 88, 86);
+    height: 320px;
+    width: 63%;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.eeg3 {
+    background-color: rgb(86, 88, 86);
+    height: 320px;
+    width: 63%;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.imm1 {
+    height: 150px;
+    width: 108%;
+    margin-right: 10px;
+}
+
+.pi3 {
+    background-color: aqua;
+    height: 150px;
+    width: 107%;
+    margin-left: 0px;
+    border-radius: 40px;
+    position: relative;
+    right: 10px;
+}
+
+.imm2 {
+    height: 150px;
+    width: 100%;
+    border-radius: 38px;
+}
+
+.karthik {
+    background-color: rgb(241, 173, 69);
+    min-height: 644px;
+    width: 100%;
+    margin-top:696px;
+}
+
+.boox1 {
+        background-color: rgb(121, 121, 124);
+        height:1678px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+         animation-name: none;
+    }
+
+.chei1 {
+    background-color: blueviolet;
+    height: 250px;
+    width: 76%;
+    margin-top: 20px;
+}
+
+.chei2 {
+    background-color: rgb(103, 126, 84);
+    height: 251px;
+    width: 76%;
+}
+.chei3 {
+    background-color: rgb(43, 220, 226);
+    height: 249px;
+    width: 76%;
+}
+
+.boox3 {
+        /* background-color: rgb(255, 0, 221); */
+        height: 1328px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 63px;
+        flex-wrap: wrap;
+        animation-name: none;
+        margin-left: 30px;
+        
+    }
+
+.cheiab1 {
+    background-color: rgb(228, 13, 13);
+    height: 250px;
+    width: 76%;
+}
+.cheiab2 {
+    background-color: rgb(20, 228, 13);
+    height: 250px;
+    width: 76%;
+}
+.cheiab3 {
+    background-color: rgb(228, 206, 13);
+    height: 250px;
+    width: 76%;
+}
+.cheiab4 {
+    background-color: rgb(13, 228, 228);
+    height: 250px;
+    width: 76%;
+}
+.cheiab5 {
+    background-color: rgb(43, 66, 100);
+    height: 250px;
+    width: 76%;
+}
+
+.boox2 {
+        /* background-color: rgb(229, 255, 0); */
+        height: 1618px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+        animation-name: none;
+    }
+.cheia1 {
+        background-color: rgb(103, 126, 84);
+        height: 250px;
+        width: 45%;
+        margin-top: 10px;
+        margin-left: -322px;
+    }
+.cheia2 {
+    background-color: rgb(233, 14, 10);
+    height: 250px;
+    width: 45%;
+    margin-left: -322px;
+}
+.imgg3 {
+        height: 250px;
+        width: 103%;
+        /* border-radius: 40px; */
+    }
+
+
+.carousel-control-next {
+    right: -94px !important;
+}
+
+.carousel-control-prev {
+    left: -94px !important;
+}
+.fs1 {
+    height: 138px !important;
+    width: 100% !important;
+    border-radius: 40px;
+}
+
+.karthik1 {
+        background-color: aqua;
+        height: 188px;
+        width: 100%;
+        margin-top: 2195px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+        
+    }
+
+    .textd1 {
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    
+    
+}
+.textc3 {
+        /* background-color: rgb(229, 255, 0); */
+        height: 1482px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+        flex-wrap: wrap;
+        padding-top: 25px;
+    }
+.ovebox1 {
+    background-color: #848a8a;
+    min-height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 19px;
+}
+
+.textc33 {
+    /* background-color: rgb(184, 187, 170); */
+    height: 200px;
+    width: 172px;
+}
+.textc4 {
+    /* background-color: rgb(30, 255, 0); */
+    height: 200px;
+    width: 172px;
+}
+
+.textc5 {
+        /* background-color: rgb(255, 17, 0); */
+        height: 200px;
+        width: 172px;
+    }
+
+.textc6 {
+        /* background-color: rgb(63, 66, 30); */
+        height: 200px;
+        width: 280px;
+    }
+.textc7 {
+    /* background-color: rgb(55, 0, 255); */
+    height: 243px;
+    width: 206px;
+}
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:1000px){
+
+    .box2 {
+        flex-direction: column-reverse;
+        padding-top: 27px;
+      
+    }
+
+    .box4 {
+    /* background-color: rgb(255, 60, 0); */
+    min-height: 80px;
+    width: 97%;
+    margin-top: 37px;
+    animation-name: a4;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: rgb(253, 253, 248) 0px 0px 30px;
+    
+}
+
+.box3{
+    /* background-color: aqua; */
+    min-height: 400px;
+    width:98%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: relative;
+    top: -25px;
+
+}
+
+.wit {
+    background-color: white;
+    height: 500px;
+    width: 101%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.wittt {
+    background-color: white;
+    height:509px;
+    width: 120%;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    position:relative;
+    top:-4px;
+}
+
+.witt {
+    background-color: white;
+    height: 500px;
+    width: 101%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.box3333 {
+    background-color: rgba(31, 241, 206, 0.849);
+    height: 538px;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+    flex-wrap: wrap;
+   
+}
+
+.box55 {
+    background-color: rgb(61, 60, 58);
+    height: 690px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tbox1 {
+    background-color: rgb(15, 15, 15);
+    height: 265px;
+    width: 67%;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+    position:relative;
+    text-align: center;
+    
+   
+}
+
+.box-price{
+              height: 300px;
+              width: 100%;
+              /* background-color: aqua; */
+              display: flex;
+              justify-content: space-evenly;
+}
+
+.pi1 {
+    background-color: aqua;
+    height: 150px;
+    width: 101%;
+    border-radius: 40px;
+    position:relative;
+    right: 20px;
+}
+.imm1 {
+    height: 150px;
+    width: 123%;
+}
+
+.pi2 {
+    background-color: aqua;
+    height: 150px;
+    width: 100%;
+     border-radius: 40px;
+    position:relative;
+    right: 20px;
+   
+}
+
+.pi3 {
+    background-color: aqua;
+    height: 150px;
+    width: 126%;
+     border-radius: 40px;
+    position:relative;
+    right: 20px;
+  
+}
+
+.v11 {
+    background-color: brown;
+    height: 406px;
+    width: 100%;
+    margin-left: 1px;
+}
+.box66 {
+    /* background-color: #8f1818; */
+    min-height: 546px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.tt11 {
+    /* background-color: rgb(255, 81, 0); */
+    height: 130px;
+    width: 100%;
+    padding: 10px;
+}
+.eeggg {
+    /* background-color: blue; */
+    height: 340px;
+    width: 208%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}
+.bu1 {
+        height: 40px;
+        width: 40%;
+        border-radius: 23px;
+        border: none;
+        background-color: rgb(61, 60, 58);
+        border: 2px solid white;
+        color: white;
+        padding: 8px 0px -1px 0px;
+        margin-left: 39px;
+        margin-top: 25px;
+    }
+
+    .bu12 {
+    height: 45px;
+    width: 17%;
+    background-color: white;
+    color: black;
+    margin-left: 36px;
+    margin-top: 10px;
+    padding: 16px 37px 44px 20px;
+    border-radius: 73%;
+    border: none;
+}
+.bus1 {
+    height: 40px;
+    width: 30%;
+    border-radius: 23px;
+    border: none;
+    background-color: rgb(219, 152, 19);
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 5px 5px 5px 30px;
+    margin-left:152px;
+    margin-top: 45px;
+}
+
+
+
+
+
+    .fs1 {
+    height: 309px !important;
+    width: 100% !important;
+    border-radius: 40px;
+}
+
+.fs1 {
+    height: 309px !important;
+    width: 100% !important;
+    border-radius: 40px;
+    margin-top: 0px;
+}
+
+.textc1 {
+    /* background-color: red; */
+    min-height: 200px;
+    width: 550px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.textc2 {
+    /* background-color: rgb(229, 255, 0); */
+    min-height: 200px;
+    width: 550px;
+    padding: 20px;
+}
+.textc5 {
+    /* background-color: rgb(255, 17, 0); */
+    height: 200px;
+    width: 170px;
+}
+.textc6 {
+    /* background-color: rgb(63, 66, 30); */
+    height: 200px;
+    width: 170px;
+}
+.textc7 {
+    /* background-color: rgb(55, 0, 255); */
+    height: 200px;
+    width: 170px;
+}
+.textc3 {
+    /* background-color: rgb(229, 255, 0); */
+    height:558px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 76px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.ovebox1 {
+    /* background-color: aqua; */
+    height: 534px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.eeggg {
+    /* background-color: blue; */
+    height: 340px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3px;
+}
+.eg3 {
+    /* background-color: rgb(147, 165, 42); */
+    height: 504px;
+    width: 100%;
+}
+
+.karthik {
+    /* background-color: rgb(241, 173, 69); */
+    min-height: 650px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 450px;
+}
+
+.boox3{
+    /* background-color: rgb(255, 0, 221); */
+    height: 270px;
+    width: 475%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10px;
+    animation: scrool 20s linear infinite ;
+    
+}
+}
